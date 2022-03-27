@@ -12,7 +12,7 @@ const Contact = () => {
         <p>
         <div className='site__contact-linkedin'>
           <img src={linkedin} alt="linkedin"/>
-          ‣ LinkedIn : <a href="https://www.linkedin.com/in/alexandre-ciorascu/">Alexandre Ciorascu</a> 
+          ‣ LinkedIn :  <a href="https://www.linkedin.com/in/alexandre-ciorascu/">Alexandre Ciorascu</a> 
         </div>
           <br></br>
           <div className='site__contact-git'>
