@@ -1,0 +1,47 @@
+.site__contact {
+  margin: 0 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  -webkit-animation: fade-in-fwd 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.site__contact h3,
+.site__contact p {
+  font-family: var(--font-family);
+}
+
+.site__contact h3 {
+  margin: 0.5rem 0 0 0.5rem;
+  font-size: 25px;
+}
+
+.site__contact p {
+  font-size: 18px;
+}
+
+.site__contact-text {
+  padding: 0.5rem 0 1rem 2rem;
+}
+
+.site__contact-linkedin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.site__contact-git {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.site__contact-mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+.site__about {
+  margin: 0 2rem 0 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  -webkit-animation: fade-in-fwd 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.site__about h3,
+.site__about p {
+  font-family: var(--font-family);
+}
+
+.site__about h3 {
+  margin: 0.5rem 0 0 0.5rem;
+  font-size: 25px;
+}
+
+.site__about p {
+  margin: 0.5rem 0 0 0.5rem;
+  font-size: 18px;
+}
+
+.site__about-text {
+  padding: 1rem;
+}
+
+.site__about-imgcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.site__about-imgcontainer img {
+  width: 50%;
+}
+
+.me {
+  animation: color-change 3s infinite;
+  cursor: default;
+}
