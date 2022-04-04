@@ -6,7 +6,7 @@ import "./header.css"
 
 
 const Header = () => {
-  const [active, setActive] = useState();
+  const [active, setActive] = useState("about me");
 
   const ToggleButton = () => {
     return (
