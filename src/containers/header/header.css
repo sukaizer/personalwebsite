@@ -26,7 +26,8 @@
 
 /*inactive button style*/
 .site__header-button-inactive {
-  background: #180f69;
+background: #2135ec;
+
 }
 
 /*active button style*/
@@ -49,5 +50,14 @@
   outline: none;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 5px;
+    transition-property: color,
+    box-shadow;
+    transition-duration: 200ms;
+        box-shadow: 0px 2px 0px 3px black;
+    border: 3px solid black;
+    border-radius: 0.4rem;
+}
+
+.site__header-button:hover {
+box-shadow: 0px 0px 0px 0px black;
 }

@@ -1,24 +1,21 @@
 import React from 'react'
 import "./projects.css"
-
+import ProjectCart from "../projectCart/ProjectCart"
+import python from "../../assets/pygame.png"
+import reactimg from "../../assets/react.png"
+import javafx from "../../assets/javafx.png"
 
 const Projects = () => {
+      
+
   return (
     <div className='site__projects'>
       <h3> ☞ my projects </h3>
       <div className='site__projects-text'>
-        <p>
-        ‣ Pokémon themed website coded in React JS. You can check it out <a href='https://pokeviewer.com' target="_blank" rel='noreferrer'>here</a>
-        </p>
-        <p>
-        ‣ Mobipic : basic photo editor written in Java using JavaFx
-        </p>
-        <p>
-        ‣  Perudo : perudo game written in Java using JavaFx
-        </p>
-        <p>
-        ‣  Sweet Night Declaration : bullet hell game project
-        </p>
+        <ProjectCart key="proj1" title="PokéViewer" text={["pokémon themed website written in React JS",<br key="1"/> ,"you can check it out ", <a key="2" href="https://pokeviewer.com" target="_blank" rel='noreferrer'>here</a>]} img={reactimg} link="https://github.com/sukaizer/pokeviewer"/>
+        <ProjectCart key="proj2" title="Mobipic" text={["basic photo editor written in Java using JavaFx"]} img={ javafx } link="https://github.com/sukaizer/Mobipic"/>
+        <ProjectCart key="proj3" title="Perudo" text={["perudo board game written in Java using JavaFx"]} img={ javafx } link="https://github.com/sukaizer/Perudo"/>
+        <ProjectCart key="proj4" title="Sweet Night Declaration" text={["bullet hell game project written in python using pygame graphic library"]} img={ python } link="https://github.com/sukaizer/Sweet-Night-Declaration"/>
       </div>
     </div>
   )
