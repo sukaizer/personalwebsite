@@ -7,7 +7,7 @@ import git from "../../assets/git.svg"
 const Contact = () => {
   return (
     <div className='site__contact'>
-      <h3>☞ contact</h3>
+      <h3> contact </h3>
       <div className='site__contact-text'>
         <p>
         <div className='site__contact-linkedin'>

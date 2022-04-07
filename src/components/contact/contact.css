@@ -8,6 +8,7 @@
 
   -webkit-animation: fade-in-fwd 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-fwd 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+
 }
 
 .site__contact h3,
@@ -26,6 +27,7 @@
 
 .site__contact-text {
   padding: 0.5rem 0 1rem 2rem;
+  margin-top: 1rem;
 }
 
 .site__contact-linkedin {

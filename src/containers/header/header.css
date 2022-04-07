@@ -26,13 +26,13 @@
 
 /*inactive button style*/
 .site__header-button-inactive {
-background: #2135ec;
+background: #ffffff;
 
 }
 
 /*active button style*/
 .site__header-button-active {
-  background: #2135ec;
+  background: #b9b6d5;
 
   -webkit-animation: shadow-drop-2-center 0.4s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -41,7 +41,7 @@ background: #2135ec;
 
 .site__header-button {
   font-weight: 500;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin: 0 1rem 0 1rem;
   padding: 0.5rem 1rem;
   font-family: var(--font-family);

@@ -5,7 +5,7 @@ import alex from '../../assets/alex.png'
 const About = () => {
   return (
     <div className='site__about'>
-      <h3> ☞ about <span className='me'>me</span></h3>
+      <h3> about <span className='me'>me</span></h3>
       <div className='site__about-text'>
         <p>
           ‣ 21 years old. HCI master student at Université Paris-Saclay. 

@@ -1,3 +1,9 @@
+html, 
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -11,12 +17,9 @@
 }
 
 body {
-  background: linear-gradient(135deg, #00ffc8, #cc1495);
-  background-size: 400% 1000%;
+    background: linear-gradient(360deg, rgb(255 255 255 / 83%), rgb(255 149 149 / 50%)),
+    rgb(0 146 252 / 70%);
 
-  -webkit-animation: AnimationName 27s ease infinite;
-  -moz-animation: AnimationName 27s ease infinite;
-  animation: AnimationName 27s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {

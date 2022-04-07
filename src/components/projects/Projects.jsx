@@ -10,7 +10,7 @@ const Projects = () => {
 
   return (
     <div className='site__projects'>
-      <h3> ☞ my projects </h3>
+      <h3> my projects </h3>
       <div className='site__projects-text'>
         <ProjectCart key="proj1" title="PokéViewer" text={["pokémon themed website written in React JS",<br key="1"/> ,"you can check it out ", <a key="2" href="https://pokeviewer.com" target="_blank" rel='noreferrer'>here</a>]} img={reactimg} link="https://github.com/sukaizer/pokeviewer"/>
         <ProjectCart key="proj2" title="Mobipic" text={["basic photo editor written in Java using JavaFx"]} img={ javafx } link="https://github.com/sukaizer/Mobipic"/>
