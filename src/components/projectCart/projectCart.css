@@ -1,6 +1,6 @@
 .project__cart {
-    background: linear-gradient(360deg, rgb(255 255 255 / 83%), rgb(255 149 149 / 50%)),
-    rgb(0 146 252 / 70%);
+    background:linear-gradient(30deg, rgba(111, 255, 106, 1) 0%, rgba(0, 125, 255, 1) 100%);
+
     mix-blend-mode: overlay;
     border-radius: 0.5rem;
     border: 3px solid black;
