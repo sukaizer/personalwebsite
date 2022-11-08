@@ -4,6 +4,7 @@ import ProjectCart from "../projectCart/ProjectCart"
 import python from "../../assets/pygame.png"
 import reactimg from "../../assets/react.png"
 import javafx from "../../assets/javafx.png"
+import godot from "../../assets/godot.png"
 
 const Projects = () => {
       
@@ -16,6 +17,7 @@ const Projects = () => {
         <ProjectCart key="proj2" title="Mobipic" text={["basic photo editor written in Java using JavaFx"]} img={ javafx } link="https://github.com/sukaizer/Mobipic"/>
         <ProjectCart key="proj3" title="Perudo" text={["perudo board game written in Java using JavaFx"]} img={ javafx } link="https://github.com/sukaizer/Perudo"/>
         <ProjectCart key="proj4" title="Sweet Night Declaration" text={["bullet hell game project written in python using pygame graphic library"]} img={ python } link="https://github.com/sukaizer/Sweet-Night-Declaration"/>
+        <ProjectCart key="proj5" title="BirdScape" text={["mockup game of FlappyBird realized with Godot game engine"]} img={ godot } link="https://github.com/sukaizer/BirdScape"/>
       </div>
     </div>
   )
