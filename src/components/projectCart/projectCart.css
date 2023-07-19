@@ -30,6 +30,7 @@
     border-radius: 0.4rem;
     transition-property: color, box-shadow;
     transition-duration: 200ms;
+    cursor: pointer;
 }
 
 .project__cart__git:hover {
@@ -54,6 +55,7 @@
     width: 60px;
     display: block;
 }
+
 
 @media screen and (max-width: 625px) {
 

@@ -1,6 +1,6 @@
 .site__projects {
     margin: 0 2rem 0 2rem;
-
+    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
