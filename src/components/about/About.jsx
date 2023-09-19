@@ -21,7 +21,7 @@ const About = () => {
           ‣ video games 🕹 and DnB music enjoyer 🎵
           <br />
           <br />
-          ‣ mostly interested in software design, VR and game design
+          ‣ mostly interested in software design, VR/AR/XR and game design
         </p>
       </div>
     </div>

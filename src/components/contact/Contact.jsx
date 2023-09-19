@@ -23,7 +23,7 @@ const Contact = () => {
           <br></br>
           <div className='site__contact-mail'>
             <img src={mail} alt="mail"/>
-          ‣ Email : &nbsp; <a href="mailto:alexandre.ciorascu@universite-paris-saclay.fr" target="_blank" rel='noreferrer'>alexandre.ciorascu@universite-paris-saclay.fr</a>  
+          ‣ Email : &nbsp; <a>alexandre[dot]ciorascu[at]universite-paris-saclay[dot]fr</a>  
         </div>
           
       </p>
