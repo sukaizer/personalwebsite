@@ -27,7 +27,6 @@
 /*inactive button style*/
 .site__header-button-inactive {
 background: #ffffff;
-
 }
 
 /*active button style*/
@@ -48,7 +47,7 @@ background: #ffffff;
   cursor: pointer;
   border: none;
   outline: none;
-  font-size: 18px;
+  font-size: 1.3vw;
   line-height: 25px;
     transition-property: color,
     box-shadow;
@@ -56,8 +55,18 @@ background: #ffffff;
         box-shadow: 0px 2px 0px 3px black;
     border: 3px solid black;
     border-radius: 0.4rem;
+  width: 10vw;
+  max-height: 62px;
 }
 
 .site__header-button:hover {
 box-shadow: 0px 0px 0px 0px black;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .site__header-button {
+    width:max-content;
+    height: 5rem;
+  }
 }

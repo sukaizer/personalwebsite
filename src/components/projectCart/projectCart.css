@@ -11,13 +11,12 @@
     padding: 1rem;
     height: 240px;
     width: 400px;
-
 }
 
 
 .project__cart__text p {
     font-family: var(--font-family);
-}
+    }
 
 .project__cart__git {
     position: absolute;
@@ -41,7 +40,7 @@
 
 .project__cart__git img {
     width: 60px;
-    display: block;
+    display: block;   
 }
 
 .project__cart__img {

@@ -42,3 +42,10 @@
   animation: color-change 3s infinite;
   cursor: default;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .site__about {
+    margin: 0 0rem 0 0rem;
+  }
+}
